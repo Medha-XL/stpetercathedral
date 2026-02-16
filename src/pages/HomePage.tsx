@@ -11,7 +11,7 @@ const HomePage = () => {
         {/* Background Image */}
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('/images/66.jpg')" }}
+          style={{ backgroundImage: "url('images/66.jpg')" }}
         />
         {/* Overlay */}
         {/* <div className="absolute inset-0 bg-gradient-to-b from-navy/80 via-navy/70 to-navy/90" /> */}

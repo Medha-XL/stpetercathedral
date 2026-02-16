@@ -23,7 +23,7 @@ const ReconstructionPage = () => {
     <div>
       {/* Hero Section */}
       <section className="relative py-20 md:py-32 overflow-hidden"
-        style={{ backgroundImage: "url('/images/66.jpg')", backgroundSize: "100% auto", backgroundRepeat: "no-repeat", width: "100%", backgroundPosition: "center", }}
+        style={{ backgroundImage: "url('images/66.jpg')", backgroundSize: "100% auto", backgroundRepeat: "no-repeat", width: "100%", backgroundPosition: "center", }}
       >
         <div
           className="absolute inset-0 bg-cover bg-center"

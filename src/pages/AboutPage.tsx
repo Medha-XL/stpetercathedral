@@ -43,7 +43,7 @@ const AboutPage = () => {
       <section className="relative py-20 md:py-32 overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/images/66.jpg')" }}
+          style={{ backgroundImage: "url('images/66.jpg')" }}
         />
         <div className="absolute inset-0 bg-gradient-to-r " />
 
@@ -134,7 +134,7 @@ const AboutPage = () => {
               <div className="w-48 h-48 rounded-2xl overflow-hidden flex-shrink-0">
                 <img
                   // src={pastorImage}
-                  src="/images/71.jpg"
+                  src="images/71.jpg"
                   alt="Parish Priest"
                   className="w-full h-full object-cover"
                 />

@@ -28,7 +28,7 @@ const DonatePage = () => {
       {/* Hero Section */}
       <section className="relative py-16 md:py-24 bg-gradient-to-br from-navy via-navy to-navy-dark overflow-hidden"
         style={{
-          backgroundImage: "url('/images/66.jpg')", backgroundSize: "100% auto", backgroundPosition: "center", width: "100%", height: "450px",
+          backgroundImage: "url('images/66.jpg')", backgroundSize: "100% auto", backgroundPosition: "center", width: "100%", height: "450px",
         }}
 
       >

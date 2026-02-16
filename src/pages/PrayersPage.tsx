@@ -41,7 +41,7 @@ const PrayersPage = () => {
       {/* Hero */}
       <section className="relative py-16 md:py-24 bg-gradient-to-br from-navy via-navy to-navy-dark"
         style={{
-          backgroundImage: "url('/images/67.jpg')", backgroundSize: "100% auto", backgroundPosition: "center", width: "100%", height: "400px",
+          backgroundImage: "url('images/67.jpg')", backgroundSize: "100% auto", backgroundPosition: "center", width: "100%", height: "400px",
         }}
       >
         <div className="absolute inset-0 opacity-10">

@@ -15,18 +15,18 @@ const GalleryPage = () => {
   const [activeCategory, setActiveCategory] = useState("All");
 
   const galleryItems = [
-    { src: "/images/29.jpg", title: "St. Peters Church Blessed Virgin Mary", category: "Church" },
-    { src: "/images/13.jpg", title: "St. Peters Church Sacred place", category: "Church" },
-    { src: "/images/61.jpg", title: "Beautiful Church Altar", category: "Church" },
-    { src: "/images/55.jpg", title: "Sunday Worship Service", category: "Events" },
-    { src: "/images/49.jpg", title: "Church Youth Fellowship Gathering", category: "Youth Ministry" },
-    { src: "/images/70.jpg", title: "Reconstruction Progress", category: "Reconstruction" },
-    { src: "/images/62.jpg", title: "Sacred Altar", category: "Church" },
-    { src: "/images/63.jpg", title: "Holy Tabernacle", category: "Church" },
-    { src: "/images/64.jpg", title: "Mass Celebration", category: "Church" },
-    { src: "/images/57.jpg", title: "Youth Christmas Moments", category: "Church" },
-    { src: "/images/30.jpg", title: "Grotto Church", category: "Church" },
-    { src: "/images/12.jpg", title: "Prayer Of Burial", category: "Community" },
+    { src: "images/29.jpg", title: "St. Peters Church Blessed Virgin Mary", category: "Church" },
+    { src: "images/13.jpg", title: "St. Peters Church Sacred place", category: "Church" },
+    { src: "images/61.jpg", title: "Beautiful Church Altar", category: "Church" },
+    { src: "images/55.jpg", title: "Sunday Worship Service", category: "Events" },
+    { src: "images/49.jpg", title: "Church Youth Fellowship Gathering", category: "Youth Ministry" },
+    { src: "images/70.jpg", title: "Reconstruction Progress", category: "Reconstruction" },
+    { src: "images/62.jpg", title: "Sacred Altar", category: "Church" },
+    { src: "images/63.jpg", title: "Holy Tabernacle", category: "Church" },
+    { src: "images/64.jpg", title: "Mass Celebration", category: "Church" },
+    { src: "images/57.jpg", title: "Youth Christmas Moments", category: "Church" },
+    { src: "images/30.jpg", title: "Grotto Church", category: "Church" },
+    { src: "images/12.jpg", title: "Prayer Of Burial", category: "Community" },
 
 
 
@@ -44,7 +44,7 @@ const GalleryPage = () => {
       {/* Hero */}
       <section className="relative py-16 md:py-24 bg-gradient-to-br from-navy via-navy to-navy-dark"
         style={{
-          backgroundImage: "url('/images/66.jpg')", backgroundSize: "100% auto", backgroundPosition: "center", width: "100%", height: "450px",
+          backgroundImage: "url('images/66.jpg')", backgroundSize: "100% auto", backgroundPosition: "center", width: "100%", height: "450px",
         }}
       >
         <div className="container-church px-4 text-center">
