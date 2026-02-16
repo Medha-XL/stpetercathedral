@@ -27,7 +27,7 @@ const Header = () => {
           <Link to="/" className="flex items-center gap-3 group">
             <div className="w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden shadow-gold border-2">
               <img
-                src="/images/72.jpg"   // public folder lo unte
+                src="images/72.jpg"   // public folder lo unte
                 alt="St. Peter's Cathedral Logo"
                 className="w-full h-full object-cover rounded-full border-2 border-white"
               />
